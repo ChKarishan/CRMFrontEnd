@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3002';
+const BASE_URL = 'https://crm-backend-lilac.vercel.app/';
 // Your API base URL
 
 const api_authth = axios.create({
