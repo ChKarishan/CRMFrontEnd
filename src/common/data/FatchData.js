@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://sore-ruby-rattlesnake-veil.cyclic.app/';
+const BASE_URL = 'https://crm-backend-swart.vercel.app/';
 // Your API base URL
 
 const api_authth = axios.create({

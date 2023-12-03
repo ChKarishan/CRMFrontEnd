@@ -18,7 +18,7 @@ const CreateDeal = () => {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await fetch('http://localhost:4000'); // Replace with your server endpoint
+          const response = await fetch('https://crm-backend-swart.vercel.app/'); // Replace with your server endpoint
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
